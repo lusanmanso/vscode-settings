@@ -1,0 +1,104 @@
+{
+  "terminal.integrated.env.windows": {},
+  "workbench.colorTheme": "poimandres",
+  "files.autoSave": "afterDelay",
+  "workbench.iconTheme": "symbols",
+  "editor.cursorBlinking": "expand",
+  "editor.linkedEditing": true,
+  "editor.guides.bracketPairs": true,
+  "editor.language.colorizedBracketPairs": [],
+  "breadcrumbs.enabled": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.wordWrap": "on",
+
+  /* Aesthetic changes */
+  "window.zoomLevel": 1.5,
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "editor.fontFamily": "'Maple Mono', monospace",
+  "editor.lineHeight": 1.5,
+  "custom-ui-style.font.sansSerif": "Cascadia Code",
+  "scm.diffDecorations": "none",
+  "editor.lineNumbers": "relative",
+
+  /* Scrollbars */
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+
+  /* Sidebar warnings */
+  "workbench.colorCustomizations": {
+    "editorCursor.background": "#000000",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+    "editorOverviewRuler.selectionHighlightForeground": "#0000",
+    "editorOverviewRuler.rangeHighlightForeground": "#0000",
+    "editorOverviewRuler.wordHighlightForeground": "#0000",
+    "editorOverviewRuler.bracketMatchForeground": "#0000",
+    "editorOverviewRuler.findMatchForeground": "#0000",
+    "editorOverviewRuler.modifiedForeground": "#0000",
+    "editorOverviewRuler.deletedForeground": "#0000",
+    "editorOverviewRuler.warningForeground": "#0000",
+    "editorOverviewRuler.addedForeground": "#0000",
+    "editorOverviewRuler.errorForeground": "#0000",
+    "editorOverviewRuler.infoForeground": "#0000",
+    "editorOverviewRuler.border": "#0000",
+  },
+  /* Custom top title */
+  "custom-ui-style.stylesheet": {
+    ".notification-toast": "box-shadow: none !important",
+    ".quick-input-widget.show-file-icons": "box-shadow: none !important",
+    ".quick-input-widget": "top: 20vh !important",
+    ".quick-input-list .scrollbar": "display: none",
+    ".monaco-action-bar.quick-input-inline-action-bar": "display: none",
+    ".editor-widget.find-widget": "box-shadow: none; border-radius: 4px",
+    ".quick-input-titlebar": "background: #100B15 !important",
+    ".monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after": "display: none",
+    ".monaco-scrollable-element > .shadow.top": "display: none",
+    ".sidebar .title-label": "padding: 0 !important",
+    ".sidebar": "border: none !important",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+    ".monaco-list-row.focused": "outline: none !important",
+    ".monaco-editor .scroll-decoration": "display: none",
+    ".title-actions": "display: none !important",
+    ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
+    ".title .monaco-icon-label:after": "margin-right: 0",
+    ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
+    ".title .monaco-icon-label.file-icon": "margin: 0 60px",
+    ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
+  },
+
+  /* Hide Everything */
+  "workbench.activityBar.location": "hidden",
+  "workbench.sideBar.location": "right",
+  "workbench.editor.showTabs": "single",
+  "workbench.statusBar.visible": false,
+  "editor.minimap.enabled": false,
+  "window.menuBarVisibility": "toggle",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+
+  /* Full Bleed */
+  "apc.electron": {
+    "frame": false,
+    "transparent": true,
+    "vibrancy": "ultra-dark",
+    "titleBarStyle": "hiddenInset",
+    "customStyles": {
+      ".editor .title": "background: transparent !important;",
+      ".editor .title .label-container": "visibility: hidden;",
+      ".editor .title .actions-container .action-item a": "visibility: hidden;",
+      ".editor .title .actions-container .action-item a[title='Open Settings (UI)']": "visibility: initial;",
+      ".editor .title .actions-container .action-item a[title='Open Settings (JSON)']": "visibility: initial;",
+      ".editor .title .actions-container": "flex-direction: row-reverse;",
+      ".editor .scrollbar .slider": "visibility: hidden;",
+      ".editor .scrollbar:hover .slider": "visibility: initial;"
+    }
+  },
+
+  "window.titleBarStyle": "native",
+  "window.customTitleBarVisibility": "never",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+}
